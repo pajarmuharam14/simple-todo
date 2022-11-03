@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 50px;
+}
+
+#task-input {
+  padding: 6px 120px 6px 15px;
+  margin: 20px auto;
+  margin-left: 30px;
+  font-size: 18px;
+  border-radius: 15px;
+  text-transform: capitalize;
+}
+
+#task-submit {
+  padding: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 6px;
+  border: none;
+  background: none;
+}
+
+main {
+  margin: 50px;
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.content input {
+  padding: 6px 120px 6px 15px;
+  font-size: 18px;
+  margin: 10px 0;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+
+.action {
+  margin-left: 5px;
+}
+
+.action button {
+  margin: 9px 6px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  background: none;
+  text-transform: capitalize;
+}

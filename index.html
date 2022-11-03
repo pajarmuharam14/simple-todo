@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Simple Todolist</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Todolist</h1>
+      <form id="task-form">
+        <input
+          type="text"
+          placeholder="write your task in here"
+          name="task-input"
+          id="task-input" />
+        <input
+          type="submit"
+          value="Add"
+          id="task-submit" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h2>Task</h2>
+        <div id="tasks"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
